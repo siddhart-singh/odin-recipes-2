@@ -24,3 +24,33 @@ ul{
 li > a{
     text-decoration: none;
 }
+
+body{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;
+background-color: rgba(201, 228, 0, 0.151);
+}
+
+.heading{
+    margin: auto;
+    font-size: 128px;
+    color: rgb(170, 182, 0);
+}
+
+.body ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+
+    flex-wrap: wrap;
+}
+
+.body ul li a{
+    color: rgb(114, 122, 0);
+    font-weight: 900;
+}
